@@ -1,0 +1,27 @@
+body{
+padding-top: 70px;
+background-color: #b8b2ad;
+/* background-color:rgb(206, 176, 192); */
+}
+.jumbotron, .thumbnail{
+color: #b8b2ad;
+background: #2a241f;
+border: none;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.top-nav{
+    background-color: rgba(31, 28, 28, 0.856);
+    border: none;
+}
+
+#nav-head, #bs-navbar-demo ul li a{
+    color: white;
+}
+
+#bs-navbar-demo ul li a:hover{
+    border-bottom: 1px solid white;
+}
