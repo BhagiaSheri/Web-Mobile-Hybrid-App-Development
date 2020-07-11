@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- nav bar for stop watch function -->
+    <nav class="controls">
+        <a href="#" class="button" onClick="stopwatch.start();">Start</a>
+        <a href="#" class="button" onClick="stopwatch.lap();">Lap</a>
+        <a href="#" class="button" onClick="stopwatch.stop();">Stop</a>
+        <a href="#" class="button" onClick="stopwatch.restart();">Restart</a>
+        <a href="#" class="button" onClick="stopwatch.clear();">Clear Laps</a>
+    </nav>
+    <!-- stop watch section -->
+    <div class="stopwatch"></div>
+    <ul class="results"></ul>
+
+    <!-- External JS File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
