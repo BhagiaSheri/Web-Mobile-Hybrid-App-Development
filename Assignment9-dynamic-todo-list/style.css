@@ -1,0 +1,68 @@
+*{
+    font-family: source sans pro;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://designshack.net/wp-content/uploads/best-poly-backgrounds.png");
+}
+
+#to-do-list-table, #to-do-task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-task{
+    margin: 1% 0;
+    padding: 5px 2%; 
+    font-size: medium;
+    background-color: #5f194d;
+    color: white;
+    border: none;
+    box-shadow: 2px 3px 4px #d81f4e;  
+}
+
+h1, th, td{
+    color: white;
+}
+
+#heading{
+    display: none;
+}
+
+#todo-list{
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+    font-size: larger;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#todo-list tr:nth-child(even) {
+    background-color: #5f194d;
+}
+
+/*  */
+@media (max-width: 480px){
+    #row1{
+        display: none;
+    }
+    #row2{
+        display: flex;
+        flex-direction: column;
+    }
+    #row2 input{
+        width: 100%;
+    }
+
+
+
+}
